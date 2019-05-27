@@ -79,6 +79,7 @@ def choice():
 contacts = Contacts()
 while True:
 	selector = choice()
+
 	if selector == 1:
 		query = ((input('Для поиска контакта введите его фамилию: ').capitalize(),
 				  input('Для поиска контакта введите его имя: ').capitalize()))
